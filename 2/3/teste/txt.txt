@@ -1,0 +1,30 @@
+Página Inicial
+
+Sobre Mim
+
+Portfólio
+
+Projeto 1
+
+Breve descrição
+Imagens/Vídeos
+Tecnologias utilizadas
+Link (se aplicável)
+Projeto 2
+
+Breve descrição
+Imagens/Vídeos
+Tecnologias utilizadas
+Link (se aplicável)
+Currículo
+
+Formação Acadêmica
+Experiência Profissional
+Habilidades Técnicas
+Certificações (se aplicável)
+Informações de Contato
+
+E-mail
+Telefone
+LinkedIn
+GitHub (se aplicável)

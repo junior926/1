@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: regular;
+    src: url(../font/SpaceMono-Regular.ttf);
+}
+  
+@font-face {
+  font-family: bold;
+  src: url(../font/SpaceMono-Bold.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: regular;
+    text-align: center;
+}
+
+body{
+
+}
+
+h1{
+background-color: black;
+color: white;
+padding: 10px;
+margin: 3px;
+font-size: 55px;
+border-radius: 15px;
+box-shadow: black 4px 1px 2px -1px;
+font-family: bold;
+text-align: center;
+}
+
+h2{
+  font-size: 21px;
+}
+
+a{
+color: white;
+box-shadow: black 2px 3px 8px 1px;
+text-decoration: none;
+font-size: 13px;
+}
+
+li{
+display: inline-block;
+background-color: black;
+color: white;
+border-radius: 0px 10px 0px 10px;
+padding: 4px;
+margin: 3px;
+}
+
+ul{
+    
+}
+
+nav{
+padding: 3px;
+margin: 0px;
+}
+
+p{
+  font-size: 12px;
+}
+
+a:hover{
+  border-radius: 0px 10px 0px 10px;
+padding: 5px;
+background-color: aquamarine;
+color: black;
+font-family: bold;
+}
+
+article{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: black 4px 3px 3px 3px;
+}
