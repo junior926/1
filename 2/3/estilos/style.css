@@ -19,7 +19,7 @@ body {
 }
 
 header > h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: bold;
     background-color: #FEFD48;
     color:  #FF4F59;
     height: 110px;
@@ -29,9 +29,8 @@ header > h1 {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.472);
-    text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.472);
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.472);
     text-align: center;
-    text-decoration: underline;
 }
 
 div {
@@ -41,7 +40,7 @@ div {
 .imagem {
     margin: 20px;
     height: 400px;
-    width: 100vw;
+    width: 90vw;
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -65,21 +64,23 @@ menu > ul > li {
     margin: 20px;
     padding: 0px;
     display: inline-block;
-    color: #FF4F59;
     background-color: #FEFD48;
     padding: 5px;
     margin: 15px;
     border-radius: 10px 0px 10px 0px;
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.472);
-    text-decoration: underline;
+    text-decoration: none;
+    color: #FF4F59;
 }
 
 form {
     background-color: #FEFD48;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.472);
     border-radius: 10px;
-    padding: 15px;
-    margin: 20px;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
 p {
@@ -87,10 +88,27 @@ p {
 }
 
 li > :hover {
-    background-color: #FF4F59;
+    background-color: #44E066;
     border-radius: 4px;
+    padding: 3px;
 }
 
 a {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF4F59;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: black 0px 1px 3px;
+}
+
+main{
+   
+}
+
+input{
+    padding: 3px;
+    margin: 3px;
+}
+
+label{
+   font-family: bold;
 }
