@@ -17,14 +17,12 @@
     background-color: white;
     color: #fff;
     padding: 15px 0;
-    margin: 6px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     box-shadow: 0px 1px 9px #0000003b;
     text-shadow: #000000d1 -2px 2px 3px;
-    border-radius: 20px;
   }
   
   header .container {
@@ -37,30 +35,59 @@
   header h1 {
     font-size: 1.8rem;
     margin-left: 20px;
+
+  }
+
+  .red {
+    color: #FF003F;
+  }
+
+  .white {
+    font-size: 32px;
   }
   
-  nav ul {
-    display: flex;
+  nav {
+    
   }
-  
-  nav ul li {
-    list-style: none;
-    margin-left: 20px;
+
+  li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
   }
-  
-  nav ul li a {
-    color: #fff;
+
+
+
+  a {
+    color: white;
+    position: relative;
     text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
+    text-shadow: black 1px 1px 1px 1px;
   }
   
-  nav ul li a:hover {
-    background-color: #FF003F;
-    border-radius: 25px 0px 25px 0px;
-    text-shadow: rgba(0, 0, 0, 0.600) -2px 1px 3px;
+  a::before {
+    background: #FF003F;
+    border-radius: 2px;
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
   }
   
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+
+
+
+
+
+
   /* Estilo da seção de apresentação */
   .intro {
     height: 100vh;
@@ -250,4 +277,32 @@
   .social-links a {
     
   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
