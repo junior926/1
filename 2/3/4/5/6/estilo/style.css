@@ -62,7 +62,7 @@
     color: white;
     position: relative;
     text-decoration: none;
-    text-shadow: black 1px 1px 1px 1px;
+    text-shadow: #0000008c 1px 3px 3px, #ff00008f 2px 0px 1px;
   }
   
   a::before {
