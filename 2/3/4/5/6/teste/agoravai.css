@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+
+}
+
+header {
+    background-color: dodgerblue;
+    max-width: 1440px;
+    padding: 0 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 2px 2px;
+    position: relative;
+}
+
+.ul {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    background-color: cornflowerblue;
+    height: 500px;
+    position: absolute;
+}
+
+p {
+    margin: 15px;
+}
